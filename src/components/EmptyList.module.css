@@ -1,0 +1,18 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.wrapper img {
+  margin-bottom: 1rem;
+}
+
+.wrapper p,
+.wrapper strong {
+  font-size: 1.25rem;
+  color: var(--gray-300);
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.625rem;
+}
+
+.logo {
+  margin-bottom: 3.313rem;
+}

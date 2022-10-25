@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--gray-500);
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 0px 1px var(--gray-400) inset;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.contentCheck {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.contentCheck p {
+  text-decoration: line-through;
+}
+
+.content p {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.063rem;
+  height: 1.063rem;
+  border-radius: 50%;
+  border: 0.125rem solid var(--blue);
+  background: none;
+  margin-right: 0.5rem;
+}
+
+.check svg {
+  color: var(--gray-100);
+  position: relative;
+  top: -0.01rem;
+  left: -0.01rem;
+}
+
+.contentCheck .check {
+  border: none;
+  background: var(--purple);
+}
